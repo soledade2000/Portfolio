@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="about">
+            <div class="text-content">
+                <h2>Olá✌️, Sou Gabriel Anderson, mas meus amigos me chamam de Soledade</h2>
+                <p class="subtitle">• Machine Learning • Full Stack • Backend Developer • Tech Enthusiast</p>
+                <p>
+                    Sou Gabriel Anderson, um apaixonado por Tecnologia e programação. Meu trabalho se concentra em analisar e desenvolver softwares para diversas aplicações.
+                    Estou sempre aprendendo para melhorar meus futuros trabalhos, buscando constantemente aperfeiçoar minha pessoa e minhas habilidades. 
+                    Como recém-ingressado no mercado, estou empenhado em amadurecer e mostrar meu valor.
+                </p>
+                <div class="social-buttons">
+                    <a href="https://www.linkedin.com/in/gabriel-anderson-913a30227/" target="_blank" class="btn">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/soledade2000" target="_blank" class="btn">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="foto.png" alt="Foto de Gabriel Anderson">
+            </div>
+        </section>
+    </main>
+
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <p class="subtitle">Confira alguns dos meus projetos e trabalhos mais recentes.</p>
+        <div class="project-cards">
+            <div class="project-card">
+                <h3>ProjetoTask</h3>
+                <p>Gerenciador de Tarefas (TaskManager) Descrição O Gerenciador de Tarefas é uma aplicação de desktop simples desenvolvida em C# (Windows Forms) com um banco de dados SQL Server.</p>
+                <a href="https://github.com/soledade2000/ProjetoTask" target="_blank" class="btn">Saiba mais</a>
+            </div>
+            <div class="project-card">
+                <h3>Suap-Tuor</h3>
+                <p>SuapTour App Este é o repositório oficial do aplicativo SuapTour, uma aplicação móvel desenvolvida em React Native Expo. 
+                O aplicativo oferece funcionalidades de cadastro de usuário, sistema de login seguro e um mapa interativo com pontos de interesse no Porto de Suape, 
+                categorizados em lazer, comida e empresas.</p>
+                <a href="https://github.com/soledade2000/Suap-Tuor" target="_blank" class="btn">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Estou disponível para conversas sobre projetos, ideias ou oportunidades. Sinta-se à vontade para me contatar!</p>
+        <p>Você pode me enviar um e-mail ou conectar-se comigo nas redes sociais:</p>
+        <p><a href="mailto:g.soledade@gotmail.com">g.soledade@gotmail.com</a></p>
+    
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/gabriel-anderson-913a30227/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/soledade2000" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Gabriel Anderson. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+
+                window.scrollTo({
+                    top: targetSection.offsetTop - 50, 
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
