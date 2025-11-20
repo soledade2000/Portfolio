@@ -1,20 +1,20 @@
-# 🚀 Meu Portfólio - Gabriel Anderson
+#  Meu Portfólio - Gabriel Anderson
 
 Bem-vindo ao meu portfólio! Aqui você encontrará informações sobre minha trajetória, projetos e habilidades como desenvolvedor.  
 ---
 
-## 🏆 **Sobre Mim**
+##  **Sobre Mim**
 Gosto de explorar diferentes abordagens para solucionar problemas, unindológica e criatividade. Tenho forte organização, planejamento e gestão de prazos,
 além de facilidade para trabalhar em equipe e adaptar-me a novos cenários.
 ---
 
-## 🛠️ **Tecnologias Utilizadas**
+##  **Tecnologias Utilizadas**
 Este portfólio foi desenvolvido com:
 - **HTML5** e **CSS3** para estruturação e estilização
 - **JavaScript** para interatividade
 ---
 
-## 📂 **Projetos Destacados**
+##  **Projetos Destacados**
 Aqui estão alguns dos principais projetos apresentados no portfólio:
 
 ###  ProjetoTask
