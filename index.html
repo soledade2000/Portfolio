@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Anderson — Desenvolvedor Back-end</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Gabriel Anderson, desenvolvedor back-end júnior especializado em Node.js, Java, C# e APIs REST. Disponível para oportunidades.">
+    <meta name="keywords" content="desenvolvedor back-end, Node.js, Java, C#, API REST, programador, Recife, junior developer">
+    <meta name="author" content="Gabriel Anderson">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (WhatsApp, LinkedIn, Facebook) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Gabriel Anderson — Desenvolvedor Back-end">
+    <meta property="og:description" content="Construindo APIs REST robustas com Node.js, Java e C#. Disponível para oportunidades.">
+    <meta property="og:image" content="foto.png">
+    <meta property="og:url" content="https://gabrieldev.vercel.app">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gabriel Anderson — Desenvolvedor Back-end">
+    <meta name="twitter:description" content="Construindo APIs REST robustas com Node.js, Java e C#. Disponível para oportunidades.">
+    <meta name="twitter:image" content="foto.png">
+
+    <!-- Favicon inline (sem arquivo externo) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23080c10'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='monospace' font-weight='700' font-size='18' fill='%2300e5ff'>G</text></svg>">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Sora:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">Gabriel<span>.</span>dev</div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="menu" id="mainMenu">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="home">
+    <div class="hero-inner">
+        <div class="hero-text fade-in">
+            <div class="hero-badge">Disponível para oportunidades</div>
+            <h1>Desenvolvedor<br><em>Back-end</em> Júnior</h1>
+            <p class="sub">
+                Construindo APIs REST robustas com <strong>Node.js</strong>, <strong>Java</strong> e <strong>C#</strong>.
+                Apaixonado por arquitetura de sistemas, integração de serviços e escrever código limpo.
+            </p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn-primary">
+                    <i class="fas fa-paper-plane"></i> Entre em contato
+                </a>
+                <a href="#projects" class="btn-outline">
+                    <i class="fas fa-code"></i> Ver projetos
+                </a>
+                <!-- ⚠️ Coloque o PDF do currículo na mesma pasta com este nome -->
+                <a href="curriculo-gabriel-anderson.pdf" download class="btn-outline">
+                    <i class="fas fa-file-arrow-down"></i> Currículo
+                </a>
+            </div>
+        </div>
+        <div class="hero-photo fade-in" style="transition-delay:0.15s">
+            <img src="foto.png" alt="Gabriel Anderson">
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <p class="section-label fade-in">// sobre mim</p>
+    <h2 class="section-title fade-in">Quem sou eu</h2>
+    <div class="section-divider fade-in"></div>
+
+    <div class="about-grid">
+        <div class="about-text fade-in">
+            <p>
+                Sou <strong>Gabriel Anderson</strong>, desenvolvedor back-end formado em <strong>Análise e Desenvolvimento de Sistemas</strong>.
+                Tenho foco em construir sistemas sólidos — desde a modelagem do banco de dados até a entrega da API.
+            </p>
+            <p>
+                Trabalho com <strong>Node.js, Java e C#</strong> para criar APIs REST, integrar front-end e back-end, e aplicar <strong>boas práticas</strong> como autenticação JWT, WebSockets e arquitetura limpa.
+            </p>
+            <p>
+                Atualmente me aprofundo em <strong>arquitetura de microsserviços</strong> e design patterns. Gosto de resolver problemas reais com código objetivo e bem estruturado.
+            </p>
+            <p>
+                Estou em busca da <strong>primeira oportunidade profissional</strong> para crescer dentro de um time, aprender com projetos reais e contribuir com energia e dedicação.
+            </p>
+        </div>
+
+        <div class="about-stats fade-in" style="transition-delay:0.1s">
+            <div class="stat-box">
+                <div class="num">3+</div>
+                <div class="label">Projetos concluídos</div>
+            </div>
+            <div class="stat-box">
+                <div class="num">ADS</div>
+                <div class="label">Formação técnica</div>
+            </div>
+            <div class="stat-box">
+                <div class="num">REST</div>
+                <div class="label">APIs desenvolvidas</div>
+            </div>
+            <div class="stat-box">
+                <div class="num">100%</div>
+                <div class="label">Focado em crescer</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <div class="skills-inner">
+        <p class="section-label fade-in">// tecnologias</p>
+        <h2 class="section-title fade-in">Minhas habilidades</h2>
+        <div class="section-divider fade-in"></div>
+
+        <div class="skills-grid">
+            <div class="skill-card fade-in">
+                <div class="icon"><i class="fas fa-server"></i></div>
+                <h3>Back-end</h3>
+                <div class="skill-tags">
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">C#</span>
+                    <span class="tag">APIs REST</span>
+                    <span class="tag">JWT</span>
+                    <span class="tag">WebSocket</span>
+                </div>
+            </div>
+            <div class="skill-card fade-in" style="transition-delay:0.05s">
+                <div class="icon"><i class="fas fa-laptop-code"></i></div>
+                <h3>Front-end</h3>
+                <div class="skill-tags">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">React Native</span>
+                </div>
+            </div>
+            <div class="skill-card fade-in" style="transition-delay:0.1s">
+                <div class="icon"><i class="fas fa-database"></i></div>
+                <h3>Banco de Dados</h3>
+                <div class="skill-tags">
+                    <span class="tag">SQL Server</span>
+                    <span class="tag">Modelagem</span>
+                    <span class="tag">Queries</span>
+                </div>
+            </div>
+            <div class="skill-card fade-in" style="transition-delay:0.15s">
+                <div class="icon"><i class="fas fa-tools"></i></div>
+                <h3>Ferramentas</h3>
+                <div class="skill-tags">
+                    <span class="tag">Git</span>
+                    <span class="tag">GitHub</span>
+                    <span class="tag">VS Code</span>
+                    <span class="tag">Postman</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+    <p class="section-label fade-in">// portfólio</p>
+    <h2 class="section-title fade-in">Projetos em destaque</h2>
+    <div class="section-divider fade-in"></div>
+
+    <div class="projects-grid">
+
+        <div class="project-card fade-in">
+            <div class="project-img-placeholder"><i class="fas fa-tasks"></i></div>
+            <div class="project-body">
+                <div class="project-chips">
+                    <span class="chip">C#</span>
+                    <span class="chip">SQL Server</span>
+                    <span class="chip">.NET</span>
+                </div>
+                <h3>Task Manager</h3>
+                <p>Sistema de gerenciamento de tarefas com CRUD completo, interface de dashboard e integração com banco de dados SQL Server.</p>
+                <div class="project-footer">
+                    <a href="https://github.com/soledade2000/ProjetoTask" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> Ver no GitHub <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card fade-in" style="transition-delay:0.08s">
+            <div class="project-img-placeholder"><i class="fas fa-map-marked-alt"></i></div>
+            <div class="project-body">
+                <div class="project-chips">
+                    <span class="chip">React Native</span>
+                    <span class="chip">Mobile</span>
+                    <span class="chip">Maps API</span>
+                </div>
+                <h3>SuapTour</h3>
+                <p>Aplicativo mobile com mapa interativo para navegação dentro do campus do IFRN — construído com React Native e integração de geolocalização.</p>
+                <div class="project-footer">
+                    <a href="https://github.com/soledade2000/Suap-Tuor" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> Ver no GitHub <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card fade-in" style="transition-delay:0.16s">
+            <div class="project-img-placeholder"><i class="fas fa-hospital"></i></div>
+            <div class="project-body">
+                <div class="project-chips">
+                    <span class="chip">Node.js</span>
+                    <span class="chip">JWT</span>
+                    <span class="chip">WebSocket</span>
+                    <span class="chip">Dashboard</span>
+                </div>
+                <h3>Clinic System</h3>
+                <p>Sistema clínico completo com autenticação JWT, dashboard interativo, comunicação em tempo real via WebSocket e controle de acesso por perfil.</p>
+                <div class="project-footer">
+                    <a href="https://github.com/soledade2000/clinic-system" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> Ver no GitHub <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <p class="section-label fade-in">// contato</p>
+    <h2 class="section-title fade-in">Vamos conversar</h2>
+    <div class="section-divider fade-in"></div>
+
+    <div class="contact-card fade-in">
+        <p>Estou aberto a oportunidades, freelas e colaborações. Me chama por qualquer canal abaixo — responderei o mais rápido possível.</p>
+
+        <div class="contact-links">
+            <a href="https://wa.me/5581995329308" target="_blank" class="contact-item">
+                <div class="ci-icon"><i class="fab fa-whatsapp"></i></div>
+                <div class="ci-info">
+                    <div class="ci-label">WhatsApp</div>
+                    <div class="ci-val">+55 (81) 9 9532-9308</div>
+                </div>
+                <i class="fas fa-arrow-right ci-arrow"></i>
+            </a>
+
+            <a href="mailto:g.soledade@hotmail.com" class="contact-item">
+                <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+                <div class="ci-info">
+                    <div class="ci-label">E-mail</div>
+                    <div class="ci-val">g.soledade@hotmail.com</div>
+                </div>
+                <i class="fas fa-arrow-right ci-arrow"></i>
+            </a>
+
+            <a href="https://linkedin.com/in/gabriel-anderson-913a30227/" target="_blank" class="contact-item">
+                <div class="ci-icon"><i class="fab fa-linkedin"></i></div>
+                <div class="ci-info">
+                    <div class="ci-label">LinkedIn</div>
+                    <div class="ci-val">Gabriel Anderson</div>
+                </div>
+                <i class="fas fa-arrow-right ci-arrow"></i>
+            </a>
+
+            <a href="https://github.com/soledade2000" target="_blank" class="contact-item">
+                <div class="ci-icon"><i class="fab fa-github"></i></div>
+                <div class="ci-info">
+                    <div class="ci-label">GitHub</div>
+                    <div class="ci-val">soledade2000</div>
+                </div>
+                <i class="fas fa-arrow-right ci-arrow"></i>
+            </a>
+        </div>
+
+        <a href="mailto:g.soledade@hotmail.com" class="btn-primary" style="width:100%;justify-content:center;font-size:0.95rem;padding:16px;">
+            <i class="fas fa-paper-plane"></i> Enviar mensagem
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>Feito com <span>♥</span> por Gabriel Anderson &nbsp;·&nbsp; <span>2025</span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
